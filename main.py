@@ -2,13 +2,13 @@
 import pyautogui as pt
 import time
 
-#ask for message limit
-limit =input("Message limit: ")
+#asking users for message limit
+limit =input("Please Enter Message limit: ")
 
-#what message wants to send
-message=input("Enter Message: ")
+#what message user wants to send
+message=input("Pleaes Enter Message: ")
 i =0
-time.sleep(5)
+time.sleep(6)
 
 # using while loop 
 while i<int(limit):
